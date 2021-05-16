@@ -126,13 +126,13 @@ public class NormalBurger {
         this.drinkPrice = drinkPrice;
     }
 
-    public String totalPrice() {
+    public void totalPrice() {
         this.totalPrice = burgerPrice + additionsPrice;
         System.out.println("Burger type is " + name);
         System.out.println("Bread type is " + breadType);
         System.out.println("additions you added " + additions);
         System.out.println("total price is " + this.totalPrice);
-       return "*********";
+       System.out.println("*********");
     }
 
     public String getName() {

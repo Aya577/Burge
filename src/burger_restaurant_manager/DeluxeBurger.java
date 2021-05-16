@@ -15,9 +15,9 @@ public class DeluxeBurger extends NormalBurger {
     }
 
     @Override
-    public String totalPrice() {
+    public void totalPrice() {
         super.totalPrice();
-        return "******";
+       
     }
 
 }
